@@ -1,6 +1,7 @@
 Video Object Detection – MEGA.PyTorch Setup (CUDA 10.0 / PyTorch 1.2.0)
 
 Authors: Helena Narganes Navares & Javier Collado Orellana
+
 Course: Deep Learning for Video Signal Processing (Lab Session 2 – Video Object Detection)
 
 This repository provides a **fully functional and tested setup** for running **MEGA.PyTorch** on a clean Conda environment with **CUDA 10.0**, **PyTorch 1.2.0**, and **no dependency on NVIDIA Apex**.  
