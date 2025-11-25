@@ -151,16 +151,13 @@ python demo/demo.py mega configs/vid_R_101_C4_MEGA_1x.yaml MEGA_R_101.pth \
 --visualize-path your/working/path/MEGA/image_folder \
 --output-folder visualization_mega
 ```
-
-VIDEO NAMES: v_HorseRiding_g10_c01.avi, v_WalkingWithDog_g01_c01.avi, v_WalkingWithDog_g10_c03.avi
-FOLDER NAMES: HorseRiding_g10_c01, WalkingWithDog_g01_c01, WalkingWithDog_g10_c03
-(substitute "video_name" and "folder_name" coherently for each case)
+Substitute "video_name" and "folder_name" coherently for each case:
 
 - Baseline Video Inference:
 ```
-    python demo/demo.py base configs/MEGA/vid_R_101_C4_MEGA_1x.yaml R_101.pth --video \
+    python demo/demo.py base configs/vid_R_101_C4_1x.yaml R_101.pth --video \
         --visualize-path your/working/path/MEGA/video_folder/video_name \
-        --output-folder your/working/path/MEGA/video_folder/visualization_baseline/folder_name     
+        --output-folder your/working/path/MEGA/video_folder/visualization_baseline/folder_name   
 ```           
 - MEGA Video Inference:
 ```
