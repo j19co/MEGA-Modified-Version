@@ -88,9 +88,9 @@ c. MEGA.PyTorch
 
 ```bash
 cd $INSTALL_DIR
-git clone https://github.com/Scalsol/mega.pytorch.git
-cd mega.pytorch
-python setup.py build develop
+git clone https://github.com/j19co/MEGA-Modified-Version
+cd MEGA-Modified-Version
+python setup.py build develop
 ```
 
 Finally, install a compatible version of Pillow:
@@ -157,7 +157,7 @@ FOLDER NAMES: HorseRiding_g10_c01, WalkingWithDog_g01_c01, WalkingWithDog_g10_c0
 
 - Baseline Video Inference:
 ```
-    python demo/demo.py base configs/vid_R_101_C4_1x.yaml R_101.pth --video \
+    python demo/demo.py base configs/MEGA/vid_R_101_C4_MEGA_1x.yaml R_101.pth --video \
         --visualize-path your/working/path/MEGA/video_folder/video_name \
         --output-folder your/working/path/MEGA/video_folder/visualization_baseline/folder_name     
 ```           
