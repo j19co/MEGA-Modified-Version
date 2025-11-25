@@ -146,7 +146,7 @@ python demo/demo.py base configs/vid_R_101_C4_1x.yaml R_101.pth \
 ```
 - MEGA Image Inference:
 ```
-python demo/demo.py mega configs/vid_R_101_C4_MEGA_1x.yaml MEGA_R_101.pth \
+python demo/demo.py mega configs/MEGA/vid_R_101_C4_MEGA_1x.yaml MEGA_R_101.pth \
 --suffix ".JPEG" \
 --visualize-path your/working/path/MEGA/image_folder \
 --output-folder visualization_mega
