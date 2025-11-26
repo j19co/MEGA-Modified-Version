@@ -108,7 +108,7 @@ unset INSTALL_DIR
 
 ---
 
-## 4. Download the images, videos and models: R_101 and MEGA_R_101 (These two have to be inside mega.pytorch)
+## 4. Download the models: R_101 and MEGA_R_101 (These two have to be inside /MEGA-Modified-Version/)
 
 | Model                 | Backbone    | AP50 | AP (fast) | AP (med) | AP (slow) | Link   |
 |-----------------------|-------------|------|-----------|----------|-----------|--------|
@@ -117,19 +117,10 @@ unset INSTALL_DIR
 
 ---
 
-## 5. Paths and Folder Configuration
+## 5. Inference Examples
 
-Set the following directories for image input and output visualization.
-
-Image input path:
-```
-your/working/path/MEGA-Modified-Version/image_folder
-```
-Output folders:
-
-Baseline results: ```./MEGA-Modified-Version/image_folder/visualization_baseline```
-
-MEGA results:     ```./MEGA-Modified-Version/image_folder/visualization_mega```
+Although both models can be run on any image or video set, we provide a set of frames and video examples in
+our repository. They are contained inside "image_folder" and "video_folder".
 
 ---
 
