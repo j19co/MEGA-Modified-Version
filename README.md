@@ -135,7 +135,14 @@ MEGA results:     ```./MEGA/image_folder/visualization_mega```
 
 ## 6. Running the Inference Demo
 
-You can run either the baseline model or the MEGA model visualization using the following commands.
+First, open a terminal in the MEGA-Modified-Version
+directory.
+
+In Video Inferences, it is necessary to indicate the video
+name ("video_name") and the specific folder where
+it is going to be save ("folder_name").
+
+You can now run either the baseline model or the MEGA model visualization using the following commands.
 
 - Baseline Image Inference:
 ```
