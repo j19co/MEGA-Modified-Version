@@ -123,13 +123,13 @@ Set the following directories for image input and output visualization.
 
 Image input path:
 ```
-your/working/path/MEGA/image_folder
+your/working/path/MEGA-Modified-Version/image_folder
 ```
 Output folders:
 
-Baseline results: ```./MEGA/image_folder/visualization_baseline```
+Baseline results: ```./MEGA-Modified-Version/image_folder/visualization_baseline```
 
-MEGA results:     ```./MEGA/image_folder/visualization_mega```
+MEGA results:     ```./MEGA-Modified-Version/image_folder/visualization_mega```
 
 ---
 
