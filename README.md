@@ -148,29 +148,29 @@ You can now run either the baseline model or the MEGA model visualization using 
 ```
 python demo/demo.py base configs/vid_R_101_C4_1x.yaml R_101.pth \
 --suffix ".JPEG" \
---visualize-path your/working/path/MEGA/image_folder \
---output-folder visualization_baseline
+--visualize-path your/working/path/MEGA-Modified-Version/image_folder \
+--output-folder your/working/path/MEGA-Modified-Version/image_folder/visualization_baseline
 ```
 - MEGA Image Inference:
 ```
 python demo/demo.py mega configs/MEGA/vid_R_101_C4_MEGA_1x.yaml MEGA_R_101.pth \
 --suffix ".JPEG" \
---visualize-path your/working/path/MEGA/image_folder \
---output-folder visualization_mega
+--visualize-path your/working/path/MEGA-Modified-Version/image_folder \
+--output-folder your/working/path/MEGA-Modified-Version/image_folder/visualization_mega
 ```
 Substitute "video_name" and "folder_name" coherently for each case:
 
 - Baseline Video Inference:
 ```
     python demo/demo.py base configs/vid_R_101_C4_1x.yaml R_101.pth --video \
-        --visualize-path your/working/path/MEGA/video_folder/video_name \
-        --output-folder your/working/path/MEGA/video_folder/visualization_baseline/folder_name   
+        --visualize-path your/working/path/MEGA-Modified-Version/video_folder/video_name \
+        --output-folder your/working/path/MEGA-Modified-Version/video_folder/visualization_baseline/folder_name  
 ```           
 - MEGA Video Inference:
 ```
     python demo/demo.py mega configs/MEGA/vid_R_101_C4_MEGA_1x.yaml MEGA_R_101.pth --video \
-        --visualize-path your/working/path/MEGA/video_folder/video_name \
-        --output-folder your/working/path/MEGA/video_folder/visualization_mega/folder_name
+        --visualize-path your/working/path/MEGA-Modified-Version/video_folder/video_name \
+        --output-folder your/working/path/MEGA-Modified-Version/video_folder/visualization_mega/folder_name
 ```
 ---
 
